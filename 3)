@@ -1,0 +1,9 @@
+#3)
+
+dia = float(input("insira os dias aqui:"))
+horas = float((input("insira as horas aqui:")))
+minutos = float((input("insira os minutos aqui:")))
+b = dia * 24 * 60 * 60
+c = horas * 60 *60
+d = minutos*60
+print("um total de:",b + c + d,"segundos")
