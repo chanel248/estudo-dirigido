@@ -1,0 +1,7 @@
+#9)
+
+a = float(input("Qnts cigarros por dia: "))
+b = float(input("Anos fumando: "))
+c = a*0.4
+d = b * c
+print ("Dias perdidos:", d)
