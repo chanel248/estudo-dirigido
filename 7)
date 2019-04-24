@@ -1,0 +1,4 @@
+#7)
+
+a = float(input("digite a temperatura em graus celsius:"))
+print ("a temperatura em  Fahrenheit é :", a * 9 / 5 + 32,"graus  Fahrenheit" )
