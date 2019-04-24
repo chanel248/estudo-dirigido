@@ -1,0 +1,23 @@
+#10)
+
+import math
+
+areaRet = float(input("Digite o tamanho da área a ser pintada, em m²: "))
+rendLitro = areaRet / 6
+litroLata = 18
+litroGalao = 3.6
+precoLata = 80
+precoGalao = 25
+qtdLata = math.ceil((rendLitro / litroLata) * 1.10)
+qtdGalao = math.ceil((rendLitro / litroGalao) * 1.10)
+compraLata = precoLata * qtdLata
+compraGalao = precoGalao * qtdGalao
+bestBuyLata = int(rendLitro / litroLata)
+bestBuyGalao = math.ceil((rendLitro % litroLata) / litroGalao)
+bestMix = (bestBuyLata * precoLata) + (bestBuyGalao * precoGalao)
+
+print("\nSegue abaixo a quantidade de tinta a ser comprada e os preços em três situações:\n")
+print("1) Compra de latas de 18 litros:\nQuant: ", qtdLata, "\nPreço: ", compraLata, "\n")
+print("2) Compra de galões de 3,6 litros:\nQuant: ", qtdGalao, "\nPreço: ", compraGalao, "\n")
+print("3) Compra de latas e galões de forma a pagar o mínimo possível:\nQuant. de latas: ", bestBuyLata,
+      "\nQuant. de galões: ", bestBuyGalao, "\nPreço Total: ", bestMix, "\n")
