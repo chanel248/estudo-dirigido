@@ -1,0 +1,8 @@
+#5)
+
+a = float(input("insira aqui o preço da mercadoria:"))
+b = float(input("insira aqui o percetual de desconto:"))
+c = a * b/100
+d = (c - a)
+print("percentual de desconto:",b)
+print("preço final da mercadoria",d)
