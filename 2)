@@ -1,0 +1,5 @@
+#2)
+
+a = float(input("insira a medida do seu material:"))
+b = a*1000
+print(b)
