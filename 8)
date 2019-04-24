@@ -1,0 +1,6 @@
+#8)
+
+a = float(input("insira os dias em que o carro foi alugado:"))
+b = float(input("km rodados:"))
+print("o valor a ser pago pelo carro é",(a*60)+(b*0.15), "reais")
+
