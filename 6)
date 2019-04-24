@@ -1,0 +1,5 @@
+#6)
+
+a = float(input("insira a distancia até o destino em km:"))
+b = float(input("insira a sua velocidade media:"))
+print("o tempo da viagem é de:", a / b, "horas")
